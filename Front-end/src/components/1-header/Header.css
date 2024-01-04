@@ -1,0 +1,37 @@
+.stack-content {
+    padding: 14px 0;
+}
+
+@media (max-width:567px) {
+    .stack-content {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+}
+
+.addoutlined-icon {
+    display: none !important;
+}
+
+@media (max-width:567px) {
+    .addoutlined-icon {
+        display: block !important;
+    }
+}
+
+
+.icons {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width:567px) {
+    .stack-content .right-box {
+        display: none;
+    }
+    .stack-content .right-box.show {
+        display: flex;
+    }
+}
